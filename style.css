@@ -7,6 +7,7 @@ body {
 }
 h1 {
 font-weight: bolder;
+color: 
 line-height: 100;
 padding: 20px;
 top: 10px;
@@ -43,7 +44,7 @@ font-weight: 100;
 
  #description{
  	text-align: center;
- 	height: 75px;
+ 	height: 100px;
  	padding-top: 20px;
  	background-color: rgba(248, 88, 9, 0.4);
 
