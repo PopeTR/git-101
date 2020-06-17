@@ -26,6 +26,7 @@ li {
 }
 
 h1 {
+<<<<<<< HEAD
 	font-weight: bolder;
 	color: black;
 	line-height: 100;
@@ -38,6 +39,18 @@ h1 {
  color: black;
  font-weight: 50px;
  z-index: 2;
+=======
+font-weight: 100;
+}
+
+h2 { 
+font-weight: 100;
+ }
+
+#logo { 
+	height: 200px;
+	border-radius: 50%;
+>>>>>>> gh-pages
  }
 
  .description{
