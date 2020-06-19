@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background: linear-gradient(-45deg, #9e0059, #ff0054, #ff5400, #ffbd00);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	font-family: 'Poppins', sans-serif;
@@ -45,7 +45,7 @@ header {
   text-align: center;
   padding: 20px 20px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.25vw;
   letter-spacing: 0.25em;
   }
 
@@ -75,12 +75,13 @@ hr.rounded {
  	height: 100px;
  	padding-top: 20px;
  	padding-bottom: 20px;
- 	height: 350px;
+ 	height: 410px;
  	position: relative;
  	background-image: url(IMG_0705.png);
- 	background-size: cover;
- 	background-position: 50%, 50%;
+ 	background-size: cover, contain;
+ 	background-position: center;
  	opacity: 0.5;
+  max-width: 100%;
 
  }
 
@@ -89,26 +90,34 @@ hr.rounded {
  	height: 100px;
  	padding-top: 20px;
  	padding-bottom: 20px;
- 	height: 350px;
+ 	height: 410px;
  	position: relative;
  	background-image: url(scooter.jpg);
- 	background-size: cover;
- 	background-position: 50%, 50%;
+ 	background-size: cover, contain; 
+  background-position: left;
+  max-width: 100%;
  	opacity: 0.5;
  }
 
 .welcome{
-	text-align: center;
-	z-index: 1;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 400;
-	color: white;
-    margin: 30px 300px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: white;
+    margin: 270px 200px;
+    
 }
-#title{
-	letter-spacing: 0.9em;
-	padding-top: 0px;
 
+.welcome h2{
+  letter-spacing: 0.9em;
+  padding-top: 0px;
+  color: white;
+  z-index: 1;
+  position: relative;
+  line-height: 1.5;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 3.5vw;
 }
 
 
